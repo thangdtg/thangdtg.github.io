@@ -33,6 +33,13 @@ h1 {
     width: 120px;
 }
 
+.profile-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 a {
     color: #0066cc;
     text-decoration: none;
