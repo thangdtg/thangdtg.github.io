@@ -1,0 +1,85 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #008080;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add some spacing and styling to projects section */
+h2 + p {
+    margin-top: 10px;
+}
+
+h3 {
+    color: #4CAF50;
+    margin-top: 15px;
+}
+
+/* Add a bit of styling to the GitHub and LinkedIn links */
+strong:after {
+    content: ": ";
+}
+
+strong a {
+    font-weight: normal;
+}
+
+/* Add some styling to the GitHub and LinkedIn links */
+strong a:before {
+    content: '[';
+}
+
+strong a:after {
+    content: ']';
+}
+
+/* Optional: Add a border around the container for better visibility */
+.container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+}
