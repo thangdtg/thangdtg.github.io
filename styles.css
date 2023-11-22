@@ -1,3 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 h1 {
     color: #008080;
 }
+
+.contact {
+    margin-bottom: 20px;
+}
+
+.contact strong {
+    display: inline-block;
+    width: 120px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    color: #4CAF50;
+    margin-top: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #4CAF50;
+    margin-top: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+.projects h3,
+.experience h3,
+.certifications h2,
+.languages h2,
+.references h2 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.container hr {
+    margin: 20px 0;
+    border: 0;
+    height: 1px;
+    background: #ddd;
+}
+
