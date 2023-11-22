@@ -1,2 +1,0 @@
-# thangdtg.github.io
-Portfolio
