@@ -1,3 +1,9 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -9,24 +15,28 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-header {
-    text-align: center;
-    margin-bottom: 20px;
 }
 
 h1 {
     color: #008080;
 }
 
-.contact strong {
-    display: inline-block;
-    width: 120px;
+h2 {
+    color: #4CAF50;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
 }
 
 a {
@@ -38,9 +48,9 @@ a:hover {
     text-decoration: underline;
 }
 
-h2 {
-    color: #4CAF50;
-    margin-top: 15px;
+/* Add some spacing and styling to projects section */
+h2 + p {
+    margin-top: 10px;
 }
 
 h3 {
@@ -48,12 +58,28 @@ h3 {
     margin-top: 15px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+/* Add a bit of styling to the GitHub and LinkedIn links */
+strong:after {
+    content: ": ";
 }
 
-ul li {
-    margin-bottom: 8px;
+strong a {
+    font-weight: normal;
+}
+
+/* Add some styling to the GitHub and LinkedIn links */
+strong a:before {
+    content: '[';
+}
+
+strong a:after {
+    content: ']';
+}
+
+/* Optional: Add a border around the container for better visibility */
+.container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
 }
